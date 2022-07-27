@@ -1,0 +1,73 @@
+/*---Utilities start---*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.sub-title{
+    color: #575757;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 60px;
+}
+
+.home-btn{
+    padding: 10px 40px;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.home-btn a{
+    color: white;
+}
+
+.home-btn:hover{
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.merri-font{
+    font-family: 'Merriweather', sans-serif;
+}
+
+.arial-font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-preview-content h1{
+    font-size: 1.7em;
+    font-weight: 500;
+}
+/*---Utilities end---*/
